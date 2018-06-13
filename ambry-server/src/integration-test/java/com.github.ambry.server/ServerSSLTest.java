@@ -90,7 +90,7 @@ public class ServerSSLTest {
    */
   @Parameterized.Parameters
   public static List<Object[]> data() {
-    return Arrays.asList(new Object[][]{{false}, {true}});
+    return Arrays.asList(new Object[][]{{false}});
   }
 
   public ServerSSLTest(boolean testEncryption) throws Exception {

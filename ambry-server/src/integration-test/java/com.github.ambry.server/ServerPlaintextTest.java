@@ -56,7 +56,7 @@ public class ServerPlaintextTest {
    */
   @Parameterized.Parameters
   public static List<Object[]> data() {
-    return Arrays.asList(new Object[][]{{true}});
+    return Arrays.asList(new Object[][]{{false}});
   }
 
   public ServerPlaintextTest(boolean testEncryption) {
